@@ -7,10 +7,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
-</head>
-<body>
+    <script       src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
 
-    <p>I am Navbar</p>
+    <link rel="stylesheet" href="navbar.css">
+
+    <link rel="stylesheet" href="body.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+
+
+<body>
+    <div id="top">
+        <div>
+            <h3>SPIN & WIN EXCITING OFFERS</h3>
+            <h3>BUY 2 GET 1 FREE ON ALL PRODUCTS USE CODE:B2G1</h3>
+            <h3>FREE CICA FACEWASH ON ALL ORDER</h3>
+            <h3>NEW LAUNCH SUPER POTENT FACE SERRUMS</h3>
+            <h3>3% OFF ON PREPAID ORDER +10% CASHBACK</h3>
+        </div>
+    </div>
+
+
+    <div id="navbar">
+        <div>
+            <div id="menu">
+                <div><i class="fa-light fa-magnifying-glass"></i></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div> <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/unnamed_250x_200x_2x_260x_24408e11-6e3a-4a0c-8327-74d0455f7696_260x.jpg?v=1646547348" alt=""> </div>
+
+        <div>
+            <div class="last">  <h2><i class="fa-solid fa-magnifying-glass"></i></h2>  </div>
+            <div class="last"> <h2><i class="fa-solid fa-location-dot"></i></h2>  </div>
+            <div class="last"> <h2><i class="fa-solid fa-bag-shopping"></i></h2> </div>
+            <div class="last"> <h2><i class="fa-solid fa-user"></i> </h2>  </div>
+        </div>
+    </div>
+    <div id="line"></div>
+
+
+
+
+    <div id="firstContainer">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"> <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/CATE_DESK_18.jpg?v=1663324418" alt=""> </div>
+              <div class="swiper-slide"> <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/desk_18.jpg?v=1663324415" alt=""></div>
+              <div class="swiper-slide"> <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/CATE_DESK_17.jpg?v=1663324415" alt=""></div>
+              <div class="swiper-slide">  <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/desk_17.jpg?v=1663324415" alt=""> </div>
+              <div class="swiper-slide"> <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/desk_19.jpg?v=1663324415" alt=""></div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+
+          </div>
+    </div>
+
     
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+  
+         loop: true,
+
+  
+         pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            },
+
+        navigation: {
+             nextEl: '.swiper-button-next',
+             prevEl: '.swiper-button-prev',
+            },
+
+});
+    </script>
 </body>
 </html>
