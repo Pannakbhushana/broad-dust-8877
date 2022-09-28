@@ -39,5 +39,5 @@ function fun(){
 }
 
 document.querySelector(".swiper-wrapper").addEventListener("click",function(){
-    document.querySelector("#append").innerHTML=null;
+    location.reload();
 })
