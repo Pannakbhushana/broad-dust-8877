@@ -45,7 +45,7 @@
             display: flex;
         }
 
-        #menu>div{
+        #menu>div:nth-child(1),#menu>div:nth-child(3),#menu>div:nth-child(2){
             width: 30px;
             height:3px;
             border: 0px solid black;
@@ -55,9 +55,7 @@
             border-radius: 5px;
             
         }
-        #menu>div:nth-child(2){
-            width: 30px;
-        }
+        
         #menu{
             margin-top: 50%;
         }
@@ -138,9 +136,9 @@
             
         }
 
-
-
-
         #line{
             border: 0.5px solid rgb(172, 171, 171);
         }
+
+
+        

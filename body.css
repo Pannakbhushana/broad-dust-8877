@@ -1,8 +1,9 @@
 
 #firstContainer{
     width: 100%;
-    height: 450px;
+    height: 500px;
     border: 0px solid black;
+    display: flex;
 }
 
 .swiper{
@@ -12,8 +13,9 @@
 
 .swiper-slide>img{
     width: 100%;
-    height: 100%;
+    height: 500px;
     border-radius: 20px;
+
 }
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
@@ -23,4 +25,23 @@
 
 .swiper .swiper-pagination-bullet-active{
     background-color: #fff;
+}
+
+#threadBox{
+    width: 300px;
+    height: 420px;
+    border: 0px solid black;
+    margin-left: 3%;
+}
+
+#threadBox>p:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#threadBox>p{
+    margin-left: 80px;
+    margin-right: 10px;
+    font-family: "Gill Sans", sans-serif;
+    color: rgb(73, 72, 72);
 }
