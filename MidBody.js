@@ -7,12 +7,13 @@ document.querySelector("#menu").addEventListener("click",fun);
 let count=+0;
 
 function fun(){
-    document.querySelector("#append").innerHTML=null;
     count++;
 
     if(count%(+2)==+0){
         location.reload();
     }
+    let div= document.createElement("div");
+        div.setAttribute("id","append");
 
     let p1=document.createElement("p");
         p1.innerText="WHAT'S NEW?";
@@ -40,6 +41,6 @@ function fun(){
     let p12=document.createElement("p");
         p12.innerText="LOG IN";
 
-
-    document.querySelector("#append").append(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12);
+    div.append(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12);
+    document.querySelector("#menu").append(div);
 }
