@@ -49,4 +49,5 @@ function fun(){
 
 document.querySelector(".swiper-wrapper").addEventListener("click",function(){
     location.reload();
-})
+});
+
