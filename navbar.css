@@ -140,5 +140,11 @@
             border: 0.5px solid rgb(172, 171, 171);
         }
 
+        body{
+            margin: 0;
+            padding: 0;
+            
+        }
+
 
         

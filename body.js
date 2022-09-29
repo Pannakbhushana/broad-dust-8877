@@ -2,8 +2,17 @@
 
 document.querySelector("#menu").addEventListener("click",fun);
 
+let count=+0;
+
 function fun(){
+    count++;
     document.querySelector("#append").innerHTML=null;
+
+    if(count%(+2)==+0){
+        document.querySelector("#append").innerHTML=null;
+    }
+
+    else{
     let div= document.createElement("div")
         div.setAttribute("id","threadBox")
 
@@ -35,7 +44,7 @@ function fun(){
 
     div.append(p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12);
     document.querySelector("#append").append(div);
-
+    }
 }
 
 document.querySelector(".swiper-wrapper").addEventListener("click",function(){
