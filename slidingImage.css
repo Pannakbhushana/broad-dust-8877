@@ -1,0 +1,137 @@
+
+
+ .slider-fram{
+    overflow: hidden;
+    height: 500px;
+    width: 1500px;
+    border: 0px solid black;
+    margin: auto;
+    margin-top: 180px
+    
+}
+
+.img-container{
+    width: 1500px;
+    height: 500%;
+    position: relative;
+    float: left;
+
+}
+
+.slider-image{
+    width: 7500px;
+    height: 500px;
+    margin: 0 0 0 -6000px;
+    position: relative;
+
+    animation-name: slide_animation;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+    animation-play-state: running;
+    animation-delay: 2s;
+    
+}
+@keyframes slide_animation{
+    0%{
+        left:0px;
+    }
+    10%{
+        left:0px ;
+    }
+    20%{
+        left:1500px;
+    }
+    30%{
+        left:1500px;
+    }
+    40%{
+        left:3000px;
+    }
+    50%{
+        left:3000px;
+    }
+    60%{
+        left:4500px;
+    }
+    65%{
+        left:4500px ;
+    }
+    70%{
+        left:6000px;
+    }
+    80%{
+        left:6000px;
+    }
+    85%{
+        left:1500px;
+    }
+    90%{
+        left:1500px;
+    }
+    95%{
+        left: 0px;
+    }
+    100%{
+        left: 0px;
+    }
+
+   
+
+}
+
+
+
+#top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(74, 72, 72);
+}
+
+#top>div{
+    /* width: 20%; */
+    height: 60%;
+    border: 0px solid red;
+    margin-left: -10%;
+    overflow: hidden;
+}
+#top>div>h3{
+    color: white;
+    font-size: 16px;
+    
+}
+#top>div>h3:hover{
+    cursor: pointer;
+}
+#top>div>h3:nth-child(1){
+    animation: anim 30s infinite;
+    animation-delay: 3s;
+}
+
+@keyframes anim{
+    0% {
+        margin-top: 0;
+    }
+
+    16.66% {
+        margin-top: -60px;
+    }
+    33.32% {
+        margin-top: -120px;
+    }
+    49.98% {
+        margin-top: -180px;
+    }
+    66.64% {
+        margin-top: -120px;
+    }
+    83.3% {
+        margin-top: -60px;
+    }
+    100% {
+        margin-top: 0;
+    }
+    
+    
+}
