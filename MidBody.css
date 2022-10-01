@@ -49,17 +49,6 @@
     display: flex;
 }
 
-/* #menu>div:nth-child(1),#menu>div:nth-child(3),#menu>div:nth-child(2){
-    width: 30px;
-    height:3px;
-    border: 0px solid black;
-    margin: auto;
-    margin-top: 5px;
-    background-color: rgb(89, 81, 81);
-    border-radius: 5px;
-    
-} */
-
 #menu>div{
     font-size: 30px;
     color: rgb(103, 103, 103);
