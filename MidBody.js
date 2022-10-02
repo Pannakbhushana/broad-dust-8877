@@ -77,6 +77,3 @@ function fun(){
 
 
     
-document.querySelector(".hv_nav").addEventListener("click",function(){
-        document.querySelector("#mysearch>button").hidden=false;
-})
